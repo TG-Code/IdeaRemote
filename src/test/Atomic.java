@@ -1,7 +1,7 @@
 package test;
 
 import java.util.concurrent.atomic.AtomicInteger;
-//检查原子性
+//用线程来验证原子性是什么意思
 public class Atomic {
     public static void main(String[] args) {
         Aa a = new Aa();
